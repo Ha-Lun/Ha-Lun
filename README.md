@@ -15,34 +15,37 @@
 * 👯 I’m looking to collaborate on **Anything Financial Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
 * 📫 How to reach me: **hannes.e.lundstrom@gmail.com**
-* 📄 Know about my experiences: **[Check out my resume](CV_Hannes_Lundström_2026.pdf)**
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+* 📄 Know about my experiences: **[Check out my resume](CV_Hannes_Lundström_2026.pdf)** 
 
 ## 🛠️ Skills
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Languages:**
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) 
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) 
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) 
 
-### Concepts & Specializations
-![Asset Management](https://img.shields.io/badge/Asset_Management-0052CC?style=for-the-badge&logo=microstrategy&logoColor=white)
-![Automation & PLC](https://img.shields.io/badge/Automation_%26_PLC-FF0000?style=for-the-badge&logo=arduino&logoColor=white)
+**Concepts & Specializations:**
+<br/>
+![Asset Management](https://img.shields.io/badge/Asset_Management-0052CC?style=for-the-badge&logo=microstrategy&logoColor=white) 
+![Automation & PLC](https://img.shields.io/badge/Automation_%26_PLC-FF0000?style=for-the-badge&logo=arduino&logoColor=white) 
 
-### Software & Environment
+**Software & Environment:**
+<br/>
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![MS Office](https://img.shields.io/badge/MS_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![MS Office](https://img.shields.io/badge/MS_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white) 
 
 <br/>
 
 ## 📚 Coursework & Projects
 
-* 📘 **[Scientific Computing for Data Analysis](https://github.com/Ha-Lun/Scientific-Computing-Data-Analysis)** - Implemented a handwritten digit classifier using Singular Value Decomposition (SVD). The algorithm approximates digit images within a low-dimensional subspace and classifies them based on the smallest reconstruction residual.
-* 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!**
-* 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!* <br/>
+* 📘 **[Scientific Computing for Data Analysis](https://github.com/Ha-Lun/Scientific-Computing-Data-Analysis)** - Implemented a handwritten digit classifier using Singular Value Decomposition (SVD). The algorithm approximates digit images within a low-dimensional subspace and classifies them based on the smallest reconstruction residual. 
+* 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
+* 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
+
+<br/>
 
 ## 📫 Connect with me
 
