@@ -27,6 +27,13 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) 
 
+**Web Development:**
+<br/>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 **Concepts & Specializations:**
 <br/>
 ![Asset Management](https://img.shields.io/badge/Asset_Management-0052CC?style=for-the-badge&logo=microstrategy&logoColor=white) 
@@ -49,7 +56,7 @@
 
 ## 🚀 Personal Projects
 
-* 🍷 **[Wine Cellar Tracker](YOUR_REPO_LINK)** - Developed an Android application for managing and tracking personal wine cellar inventory. Built using [Insert your tech stack here, e.g., Java and SQLite]. <br> [![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](YOUR_PLAY_STORE_LINK)
+* 🍷 **[Wine Cellar Tracker](YOUR_REPO_LINK)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. <br> [![Live App](https://img.shields.io/badge/Live_App-800020?style=for-the-badge&logo=react&logoColor=white)](https://sip-guardian.lovable.app/)
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 
