@@ -15,7 +15,7 @@
 * 👯 I’m looking to collaborate on **Anything Financial Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
 * 📫 How to reach me: **hannes.e.lundstrom@gmail.com**
-* 📄 Know about my experiences: **[Check out my resume](CV_Hannes_Lundström_2026.pdf)** 
+* 📄 Know about my experiences: **[Check out my resume](CV_Hannes_Lundström_2026.pdf)** <br/>
 
 ## 🛠️ Skills
 
@@ -42,6 +42,14 @@
 ## 📚 Coursework & Projects
 
 * 📘 **[Scientific Computing for Data Analysis](https://github.com/Ha-Lun/Scientific-Computing-Data-Analysis)** - Implemented a handwritten digit classifier using Singular Value Decomposition (SVD). The algorithm approximates digit images within a low-dimensional subspace and classifies them based on the smallest reconstruction residual. 
+* 📖 **[Upcoming Course Material](#)** - *Currently studying and finalizing related project documentation. Updates coming soon!*
+* 📖 **[Upcoming Course Material](#)** - *Currently studying and finalizing related project documentation. Updates coming soon!*
+
+<br/>
+
+## 🚀 Personal Projects
+
+* 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 
