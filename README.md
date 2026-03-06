@@ -56,7 +56,7 @@
 
 ## 🚀 Personal Projects
 
-* 🍷 **[Wine Cellar Tracker](YOUR_REPO_LINK)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. <br> [![Live App](https://img.shields.io/badge/Live_App-800020?style=for-the-badge&logo=react&logoColor=white)](https://sip-guardian.lovable.app/)
+* 🍷 **[Wine Cellar Tracker](https://github.com/Ha-Lun/wine-cellar-app/tree/main)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. <br> [![Live App](https://img.shields.io/badge/Live_App-800020?style=for-the-badge&logo=react&logoColor=white)](https://sip-guardian.lovable.app/)
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 
