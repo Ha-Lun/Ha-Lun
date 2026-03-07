@@ -10,7 +10,7 @@
 
 ## 👨‍💻 About me
 
-* 🔭 I’m currently working on **[Stock Transaction Tracker](YOUR_PROJECT_LINK)**
+* 🔭 I’m currently working on **[Stock Transaction Tracker](YOUR_PROJECT_LINK)** and **[Wine Cellar App](https://github.com/Ha-Lun/wine-cellar-app)**
 * 🌱 I’m currently learning **Advanced Machine Learning**
 * 👯 I’m looking to collaborate on **Anything Financial Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
