@@ -58,12 +58,8 @@
 
 ## 🚀 Personal Projects
 
-* 🏛️ **[Pelosi Trade Tracker](https://github.com/Ha-Lun/pelosi-tracker)** - A Python-based automated system that tracks and visualizes stock trades by Nancy Pelosi. Built with a Model Context Protocol (MCP) server for live Capitol Trades data, `yfinance` for market analysis, SQLite, and an interactive Dash/Plotly web dashboard. <br>
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
-[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](#)
-[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](#)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
-* 🍷 **[Wine Cellar Tracker](https://github.com/Ha-Lun/wine-cellar-app/tree/main)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. <br> [![Live App](https://img.shields.io/badge/Live_App-800020?style=for-the-badge&logo=react&logoColor=white)](https://sip-guardian.lovable.app/)
+* 🏛️ **[Pelosi Trade Tracker](https://github.com/Ha-Lun/pelosi-tracker)** - A Python-based automated system that tracks and visualizes stock trades by Nancy Pelosi. Built with a Model Context Protocol (MCP) server for live Capitol Trades data, `yfinance` for market analysis, SQLite, and an interactive Dash/Plotly web dashboard.<br>[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#) [![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](#) [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](#) [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
+* 🍷 **[Wine Cellar Tracker](https://github.com/Ha-Lun/wine-cellar-app/tree/main)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.<br>[![Live App](https://img.shields.io/badge/Live_App-800020?style=for-the-badge&logo=react&logoColor=white)](https://sip-guardian.lovable.app/)
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 
 <br/>
