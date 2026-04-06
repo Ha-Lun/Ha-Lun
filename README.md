@@ -10,7 +10,7 @@
 
 ## 👨‍💻 About me
 
-* 🔭 I’m currently working on **[Pelosi Trade Tracker](https://github.com/Ha-Lun/pelosi-tracker)** and **[Wine Cellar App](https://github.com/Ha-Lun/wine-cellar-app)**
+* 🔭 I’m currently working on **[Wine Cellar App](https://github.com/Ha-Lun/wine-cellar-app)**
 * 🌱 I’m currently learning **Advanced Machine Learning**
 * 👯 I’m looking to collaborate on **Anything Financial Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
