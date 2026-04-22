@@ -10,9 +10,9 @@
 
 ## 👨‍💻 About me
 
-* 🔭 I’m currently working on **[Wine Cellar App](https://github.com/Ha-Lun/wine-cellar-app)**
-* 🌱 I’m currently learning **Advanced Machine Learning**
-* 👯 I’m looking to collaborate on **Anything Financial Related**
+* 🔭 I'm currently working on **[Recipe and Cooking app](https://github.com/Ha-Lun/clip-my-recipes)**
+* 🌱 I'm currently learning **Advanced Machine Learning**
+* 👯 I'm looking to collaborate on **Anything Financial Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
 * 📫 How to reach me: **hannes.e.lundstrom@gmail.com**
 * 📄 Know about my experiences: **[Check out my resume](Hannes_Lundström_CV_2026_1.pdf)** <br/>
@@ -33,6 +33,8 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)
 
 **Concepts & Specializations:**
 <br/>
@@ -59,8 +61,9 @@
 ## 🚀 Personal Projects
 
 * 🏛️ **[Pelosi Trade Tracker](https://github.com/Ha-Lun/pelosi-stock-tracker)** - A Python-based automated system that tracks and visualizes stock trades by Nancy Pelosi. Built with a Model Context Protocol (MCP) server for live Capitol Trades data, `yfinance` for market analysis, SQLite, and an interactive Dash/Plotly web dashboard.<br>[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#) [![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](#) [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](#) [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
-* 🤖 **[Personal LLM](https://github.com/Ha-Lun/personal-llm)** - A GPT-style decoder-only Transformer built from scratch with PyTorch. Trained on the Tiny Shakespeare dataset, it features multi-head attention, layer normalization, and a custom sampling pipeline (Temperature, Top-K, Nucleus).<br>[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#) [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](#) 
+* 🤖 **[Personal LLM](https://github.com/Ha-Lun/personal-llm)** - A GPT-style decoder-only Transformer built from scratch with PyTorch. Trained on the Tiny Shakespeare dataset, it features multi-head attention, layer normalization, and a custom sampling pipeline (Temperature, Top-K, Nucleus).<br>[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#) [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](#)
 * 🍷 **[Wine Cellar Tracker](https://github.com/Ha-Lun/wine-cellar-app/tree/main)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.<br>[![Live App](https://img.shields.io/badge/Live_App-800020?style=for-the-badge&logo=react&logoColor=white)](https://wine-cellar-app-nine.vercel.app/)
+* 🍽️ **[Clip My Recipes](https://github.com/Ha-Lun/clip-my-recipes)** - A full-stack mobile-ready web app for saving, organizing, and managing recipes clipped from across the web. Features a Supabase backend, Android packaging via Capacitor, and a clean UI built with React, shadcn-ui, and Tailwind CSS.<br>[![Live App](https://img.shields.io/badge/Live_App-119EFF?style=for-the-badge&logo=react&logoColor=white)](https://clip-my-recipes.vercel.app/)
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
 
 <br/>
