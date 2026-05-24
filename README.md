@@ -10,9 +10,9 @@
 
 ## 👨‍💻 About me
 
-* 🔭 I'm currently working on **[Recipe and Cooking app](https://github.com/Ha-Lun/clip-my-recipes)**
+* 🔭 I'm currently working on **[Recipe and Cooking app](https://github.com/Ha-Lun/clip-my-recipes) & [Clavis](https://clavis.lundstromslogiska.se/)**
 * 🌱 I'm currently learning **Advanced Machine Learning**
-* 👯 I'm looking to collaborate on **Anything Financial Related**
+* 👯 I'm looking to collaborate on **Anything Financial or AI Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
 * 📫 How to reach me: **hannes.e.lundstrom@gmail.com**
 * 📄 Know about my experiences: **[Check out my resume](Hannes_Lundström_CV_2026_1.pdf)** <br/>
