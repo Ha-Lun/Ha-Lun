@@ -15,7 +15,7 @@
 * 👯 I'm looking to collaborate on **Anything Financial or AI Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
 * 📫 How to reach me: **hannes.e.lundstrom@gmail.com**
-* 📄 Know about my experiences: **[Check out my resume](Hannes_Lundström_CV_2026_1.pdf)** <br/>
+* 📄 Know about my experiences: **[Check out my resume](Hannes_Lundström_CV_2026.pdf)** <br/>
 
 ## 🛠️ Skills
 
