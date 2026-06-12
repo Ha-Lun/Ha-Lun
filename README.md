@@ -74,10 +74,10 @@
   <a href="https://www.linkedin.com/in/hannes-lundstr%C3%B6m/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="[YOUR_FACEBOOK_LINK]">
+  <a href="[https://www.facebook.com/hannes.lundstrom.79]">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
   </a>
-  <a href="[YOUR_INSTAGRAM_LINK]">
+  <a href="[https://www.instagram.com/hannes_lundstrom/]">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
 </div>
