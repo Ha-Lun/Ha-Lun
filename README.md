@@ -61,7 +61,7 @@
 ## 🚀 Personal Projects
 
 * 🏛️ **[Pelosi Trade Tracker](https://github.com/Ha-Lun/pelosi-stock-tracker)** - A Python-based automated system that tracks and visualizes stock trades by Nancy Pelosi. Built with a Model C[...]
-* 🤖 **[Personal LLM](https://github.com/Ha-Lun/personal-llm)** - A GPT-style decoder-only Transformer built from scratch with PyTorch, trained on Tiny Shakespeare. Features Phase 2 fine-tuning on coding instructions using QLoRA (Phi-3), with an [Ollama model](https://ollama.com/hanneselundstrom/phi-coding-instructor) available.
+* 🤖 **[Personal LLM](https://github.com/Ha-Lun/personal-llm)** - A GPT-style decoder-only Transformer built from scratch with PyTorch. Trained on the Tiny Shakespeare dataset, it features multi[...]
 * 🍷 **[Wine Cellar Tracker](https://github.com/Ha-Lun/wine-cellar-app/tree/main)** - Developed a web application for managing and tracking personal wine cellar inventory. Built using Vite, Type[...]
 * 🍽️ **[Clip My Recipes](https://github.com/Ha-Lun/clip-my-recipes)** - A full-stack mobile-ready web app for saving, organizing, and managing recipes clipped from across the web. Features a [...]
 * 🚧 **[Project Under Construction](#)** - *Currently building out this repository. Check back soon!*
