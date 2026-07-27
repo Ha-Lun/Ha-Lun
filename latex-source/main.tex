@@ -1,0 +1,246 @@
+%-------------------------
+% Resume in Latex
+% Author : Hannes Lundström (template by Harshibar)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[scale=0.90,lf]{FiraMono}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\usepackage{tgheros}
+\renewcommand*{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat {\section}{
+    \bfseries \vspace{2pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
+      \textit{#3} & {\color{dark-grey} \small #4}\\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Hannes Lundstr\"{o}m} \\ \vspace{5pt}
+    \small
+    \faPhone* \texttt{+46 733 254 652} \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{hannes.e.lundstrom@gmail.com} \hspace{1pt} $|$
+    \hspace{1pt} \faGithub \hspace{2pt}%
+    \href{https://github.com/Ha-Lun/Ha-Lun}{\myuline{\texttt{github.com/Ha-Lun/Ha-Lun}}} \hspace{1pt} $|$
+    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{Uppsala, Sweden}
+    \\ \vspace{-3pt}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lundstr\"{o}ms Logiska}{Apr. 2026 -- Present}
+      {Co-Founder}{Uppsala, Sweden}
+      \resumeItemListStart
+        \resumeItem{Co-founded a consulting firm with a focus on AI Strategy, Systems Development, and Management Consulting.}
+        \resumeItem{Designs and delivers full-stack software solutions, including scalable web applications and cloud-based backend systems.}
+        \resumeItem{Implements LLM-based applications and AI strategies that create measurable business value for clients.}
+        \resumeItem{Manages client relations, project scoping, and delivery in close collaboration with senior technical leadership.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {I-Sektionen Uppsala}{Jul. 2025 -- Present}
+      {Vice Chairman and Treasurer}{Uppsala, Sweden}
+      \resumeItemListStart
+        \resumeItem{Responsible for the association's finances, including invoicing, bookkeeping, cash flow analysis, ensuring the association's economic sustainability.}
+        \resumeItem{Handles economic reporting and documentation for the board and members.}
+        \resumeItem{Serves on the board and makes decisions regarding both daily operations and the association's long-term development.}
+        \resumeItem{Maintains contact between the association and companies, other student organizations, financial institutions, and government agencies.}
+        \resumeItem{Responsible for the section's investments and leads the asset management work within the association.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Uppsala University}{Nov. 2025 -- Jan. 2026}
+      {Teaching Assistant, ``Virtual Development of Automated Production Systems''}{Uppsala, Sweden}
+      \resumeItemListStart
+        \resumeItem{Supervised lab sessions and project work in a course focused on PLC programming (Ladder Logic) and production simulation in Simumatik.}
+        \resumeItem{Led students through lab assignments, assisted with project development, and explained key concepts in industrial automation and control systems.}
+        \resumeItem{Collaborated with three colleagues on scheduling and planning of lab and project sessions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Tempo Runmar\"{o} AB}{Jul. 2024 -- Present}
+      {Store Worker}{Runmar\"{o}, Stockholm}
+      \resumeItemListStart
+        \resumeItem{Purchasing manager for the store's fruits and vegetables, including demand forecasting and continuous inventory management.}
+        \resumeItem{Responsible for training new store workers.}
+        \resumeItem{Performed various tasks including customer service, rental services, unpacking, and general store maintenance.}
+        \resumeItem{Worked in small teams of approximately five people with rotating responsibilities, where overall responsibility regularly fell to me.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\newpage
+%-----------PROJECTS-----------
+\section{PROJECTS}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Clavis} \href{https://clavis.lundstromslogiska.se}{\myuline{\texttt{(Live App)}}}}{}
+      \resumeItemListStart
+        \resumeItem{Built a high-end AI synthesis platform using a \textit{Model Council} architecture that queries multiple LLMs in parallel and delivers a single synthesized, high-confidence response.}
+        \resumeItem{Developed with Next.js 14, TypeScript, Zustand for state management, and Appwrite as the backend-as-a-service layer.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+  {\textbf{Personal LLM} \href{https://github.com/Ha-Lun/personal-llm}{\myuline{\texttt{(GitHub)}}}}{}
+  \resumeItemListStart
+    \resumeItem{Built a GPT-style decoder-only Transformer from scratch in PyTorch, implementing core LLM components including tokenization, positional encoding, multi-head attention, layer normalization, and probabilistic sampling methods.}
+    \resumeItem{Extended the project by fine-tuning \texttt{Phi-3-mini-4k-instruct} on 2{,}000 Python coding-instruction examples using QLoRA on a Google Colab T4 GPU, then deployed the resulting coding assistant to \href{https://ollama.com/hanneselundstrom/phi-coding-instructor}{Ollama}.}
+  \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Pelosi Trade Tracker} \href{https://github.com/Ha-Lun/pelosi-tracker}{\myuline{\texttt{(GitHub)}}}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a Python-based automated system to fetch and track congressional stock trades using a Model Context Protocol (MCP) server.}
+        \resumeItem{Built a robust data pipeline integrating \texttt{yfinance} for real-time market data and SQLite with Peewee ORM for persistent storage.}
+        \resumeItem{Designed an interactive web dashboard using Dash (Plotly) and Bootstrap to visualize historical trade trends and market analysis.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Clip My Recipes} \href{https://github.com/Ha-Lun/clip-my-recipes}{\myuline{\texttt{(GitHub)}}} \ | \
+      \href{https://clipped.lundstromslogiska.se/}{\myuline{\texttt{Live App}}}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack, mobile-ready web application for saving and managing recipes clipped from the web.}
+        \resumeItem{Integrated OCR for cookbook digitization, a Supabase backend, and Android packaging via Capacitor.}
+        \resumeItem{Built with Astro, React, TypeScript, and a multi-language interface with automated unit conversion.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Wine Cellar Tracker} \href{https://github.com/Ha-Lun/wine-cellar-app}{\myuline{\texttt{(GitHub)}}} \ | \
+      \href{https://wine-cellar.lundstromslogiska.se/}{\myuline{\texttt{Live App}}}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a web application for managing and tracking personal wine cellar inventory.}
+        \resumeItem{Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Scientific Computing for Data Analysis} \href{https://github.com/Ha-Lun/Scientific-Computing-Data-Analysis}{\myuline{\texttt{(GitHub)}}}}{}
+      \resumeItemListStart
+        \resumeItem{Implemented a handwritten digit classifier using Singular Value Decomposition (SVD).}
+        \resumeItem{The algorithm approximates digit images within a low-dimensional subspace and classifies them based on the smallest reconstruction residual.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Uppsala University}{Aug. 2023 -- Present}
+      {Master of Science in Industrial Economics}{Uppsala, Sweden}
+      \resumeItemListStart
+        \resumeItem{Ongoing studies in industrial economics with focus on technology, economics, and management.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rudbeck}{Aug. 2020 -- Jun. 2023}
+      {Natural Science Program}{Sollentuna, Sweden}
+      \resumeItemListStart
+        \resumeItem{High school education with natural sciences focus.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages} {: Python, Java, C\#, C++, SQL, TypeScript}\\
+     \textbf{Web} {: React, Next.js, Astro, Vite, Tailwind CSS, Supabase, Dash, Bootstrap}\\
+     \textbf{Technical} {: Automation \& PLC, Docker, Linux, Git, SQLite, Vector Databases}\\
+     \textbf{AI} {: LLM Deployment, RAG Architecture, Model Quantization, AI Strategy}\\
+     \textbf{Finance} {: Asset Management, Accounting, Cash Flow Analysis}\\
+     \textbf{Office} {: MS Office}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

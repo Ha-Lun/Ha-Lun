@@ -1,0 +1,7 @@
+%% Minimal ulem.sty replacement for pdflatex on this system
+\ProvidesPackage{ulem}[2024/01/01 minimal ulem replacement]
+\newcommand{\ULdepth}{1.8pt}
+\newcommand{\uline}[1]{\bgroup\setbox0=\hbox{#1}\leavevmode\rlap{\vrule height 1.8pt depth 0pt width \wd0}\box0\egroup}
+\DeclareOption{normalem}{}
+\ProcessOptions
+\endinput
