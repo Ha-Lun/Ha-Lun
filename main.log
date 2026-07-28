@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.26)  27 JUL 2026 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.27)  28 JUL 2026 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,17 +363,20 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 )) (./ulem.sty
 Package: ulem 2024/01/01 minimal ulem replacement
 )
-(/usr/share/texmf/tex/latex/tex-gyre/tgheros.sty
+(/usr/local/share/texmf/tex/latex/tex-gyre/tgheros.sty
 Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 11
 2.
+LaTeX Font Info:    No file T1qhv.fd. on input line 112.
 
-(/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)) (./main.aux)
+
+LaTeX Font Warning: Font shape `T1/qhv/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 112.
+
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -416,9 +419,13 @@ Package hyperref Info: Link coloring OFF on input line 100.
 
 \c@mv@tabular=\count286
 \c@mv@boldtabular=\count287
+
+
+LaTeX Font Warning: Font shape `T1/qhv/b/n' undefined
+(Font)              using `T1/qhv/m/n' instead on input line 104.
+
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 106.
-
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for T1+FiraMono-TLF on inpu
 t line 106.
@@ -465,17 +472,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 120.
 
+LaTeX Font Warning: Font shape `T1/qhv/m/it' undefined
+(Font)              using `T1/qhv/m/n' instead on input line 120.
+
+
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawes
-ome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_i3ioe
-n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/fira/fir_i3ioen.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fonta
+wesome5/fa5brands0.enc}]
 LaTeX Font Info:    Font shape `T1/FiraMono-TLF/m/n' in size <10.95> not availa
 ble
 (Font)              Font shape `T1/FiraMono-TLF/regular/n' tried instead on inp
@@ -496,34 +507,45 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2] (./main.aux)
+[2]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[3] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E4A20694AB785100E26C1AEFBA388DCE;337.
  ) 
 Here is how much of TeX's memory you used:
- 14786 strings out of 475582
- 253962 string characters out of 5778246
- 1958975 words of memory out of 5000000
- 36612 multiletter control sequences out of 15000+600000
- 590762 words of font info for 67 fonts, out of 8000000 for 9000
+ 14732 strings out of 475582
+ 253204 string characters out of 5778246
+ 1957975 words of memory out of 5000000
+ 36559 multiletter control sequences out of 15000+600000
+ 567453 words of font info for 63 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 75i,11n,79p,329b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brand
-s-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/Fo
-ntAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/
-texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public
-/tex-gyre/qhvri.pfb>
-Output written on main.pdf (2 pages, 162896 bytes).
+ 75i,12n,79p,329b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </
+root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </root/
+.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </root/.texl
+ive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk></usr/share/texliv
+e/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on main.pdf (3 pages, 138134 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
