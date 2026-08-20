@@ -10,7 +10,7 @@
 
 ## 👨‍💻 About me
 
-* 🔭 I'm currently working on **[Recipe and Cooking app](https://github.com/Ha-Lun/clip-my-recipes) & [Clavis](https://clavis.lundstromslogiska.se/)**
+* 🔭 I'm currently working on **[Recipe and Cooking app](https://github.com/Ha-Lun/clip-my-recipes) & [LLM Agentic Coding Workflow](https://github.com/Ha-Lun/swarmkit)**
 * 🌱 I'm currently learning **Advanced Machine Learning**
 * 👯 I'm looking to collaborate on **Anything Financial or AI Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
