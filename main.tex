@@ -38,6 +38,8 @@
 \usepackage{tgheros}
 \renewcommand*{\familydefault}{\sfdefault}
 \usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -111,6 +113,22 @@
     \\ \vspace{-3pt}
 \end{center}
 
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Uppsala University}{Aug. 2023 -- Jun. 2028 (expected)}
+      {Master of Science in Industrial Engineering and Management}{Uppsala, Sweden}
+      \resumeItemListStart
+        \resumeItem{Specialization: Industrial Analytics.}
+        \resumeItem{Bachelor of Science in Engineering (Teknologie kandidatexamen), 2026.}
+        \resumeItem{GPA: 4.7/5.}
+        \resumeItem{Scholarship: Hitachi Power Up Program (Hitachi Energy), 2026--2028. 2-year leadership development program in the power and energy industry.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
 %-----------EXPERIENCE-----------
 \section{EXPERIENCE}
   \resumeSubHeadingListStart
@@ -119,22 +137,18 @@
       {Lundstr\"{o}ms Logiska}{Apr. 2026 -- Present}
       {Co-Founder}{Uppsala, Sweden}
       \resumeItemListStart
-        \resumeItem{Co-founded a consulting firm with a focus on AI Strategy, Systems Development, and Management Consulting.}
-        \resumeItem{Designs and delivers full-stack software solutions, including scalable web applications and cloud-based backend systems.}
-        \resumeItem{Implements LLM-based applications and AI strategies that create measurable business value for clients.}
-        \resumeItem{Manages client relations, project scoping, and delivery in close collaboration with senior technical leadership.}
+        \resumeItem{Co-founded a consultancy in AI strategy, systems development, and management consulting; responsible for client relations, project scoping, and delivery.}
+        \resumeItem{Delivered Milknet.se, the website for a national Swedish network of 30+ neonatal milk banks, guiding prospective donors to their local milk bank and giving healthcare staff access to shared guidelines (Astro, Swedish-language, accessibility-focused).}
+        \resumeItem{Built the company website with bilingual (SV/EN) routing and a case-study showcase linking to live deployed projects (Astro).}
       \resumeItemListEnd
 
     \resumeSubheading
-      {I-Sektionen Uppsala}{Jul. 2025 -- Present}
+      {I-Sektionen Uppsala}{Jul. 2025 -- Jun. 2026}
       {Vice Chairman and Treasurer}{Uppsala, Sweden}
       \resumeItemListStart
-        \resumeItem{Responsible for the association's finances, including invoicing, bookkeeping, cash flow analysis, ensuring the association's economic sustainability.}
-        \resumeItem{Handles economic reporting and documentation for the board and members.}
-        \resumeItem{Serves on the board and makes decisions regarding both daily operations and the association's long-term development.}
-        \resumeItem{Maintains contact between the association and companies, other student organizations, financial institutions, and government agencies.}
-        \resumeItem{Responsible for the section's investments and leads the asset management work within the association.}
-        \resumeItem{Facilitated a major restructuring of the Section, resulting in a clear and positive impact on the efficiency and workload of all board members.}
+        \resumeItem{Managed finances for a student association with \textasciitilde 1.5 MSEK in annual revenue, covering invoicing, bookkeeping, cash flow analysis, and financial reporting to the board and members.}
+        \resumeItem{Oversaw \textasciitilde 40 kSEK in capital investments (camera equipment and merchandise) and served as the association's contact with companies, financial institutions, and government agencies.}
+        \resumeItem{Facilitated a major reorganization: replaced the board with a smaller strategic board plus an operative group running day-to-day operations, created new roles, and split overloaded responsibilities across multiple roles.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -147,27 +161,18 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Tempo Runmar\"{o} AB}{Jul. 2024 -- Present}
+      {Tempo Runmar\"{o} AB}{Summers 2024 -- 2026}
       {Store Worker}{Runmar\"{o}, Stockholm}
       \resumeItemListStart
-        \resumeItem{Purchasing manager for the store's fruits and vegetables, including demand forecasting and continuous inventory management.}
-        \resumeItem{Responsible for training new store workers.}
-        \resumeItem{Performed various tasks including customer service, rental services, unpacking, and general store maintenance.}
-        \resumeItem{Worked in small teams of approximately five people with rotating responsibilities, where overall responsibility regularly fell to me.}
+        \resumeItem{Purchasing manager for fruits and vegetables, handling demand forecasting and continuous inventory management.}
+        \resumeItem{Trained new staff and regularly held overall responsibility in teams of \textasciitilde 5.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
-\newpage
+
 %-----------PROJECTS-----------
 \section{PROJECTS}
   \resumeSubHeadingListStart
-
-    \resumeProjectHeading
-      {\textbf{Clavis} \href{https://clavis.lundstromslogiska.se}{\myuline{\texttt{(Live App)}}}}{}
-      \resumeItemListStart
-        \resumeItem{Built a high-end AI synthesis platform using a \textit{Model Council} architecture that queries multiple LLMs in parallel and delivers a single synthesized, high-confidence response.}
-        \resumeItem{Developed with Next.js 14, TypeScript, Zustand for state management, and Appwrite as the backend-as-a-service layer.}
-      \resumeItemListEnd
 
     \resumeProjectHeading
   {\textbf{Personal LLM} \href{https://github.com/Ha-Lun/personal-llm}{\myuline{\texttt{(GitHub)}}}}{}
@@ -177,7 +182,23 @@
   \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{Pelosi Trade Tracker} \href{https://github.com/Ha-Lun/pelosi-tracker}{\myuline{\texttt{(GitHub)}}}}{}
+      {\textbf{Clavis} \href{https://clavis.lundstromslogiska.se}{\myuline{\texttt{(Live App)}}}}{}
+      \resumeItemListStart
+        \resumeItem{Built an AI synthesis platform using a \textit{Model Council} architecture that queries multiple LLMs in parallel and delivers a single synthesized response.}
+        \resumeItem{Developed with Next.js 14, TypeScript, Zustand for state management, and Appwrite as the backend-as-a-service layer.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Clip My Recipes} \href{https://github.com/Ha-Lun/clip-my-recipes}{\myuline{\texttt{(GitHub)}}} \ | \
+      \href{https://clipped.lundstromslogiska.se/}{\myuline{\texttt{Live App}}}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack, mobile-ready web application for saving and managing recipes clipped from the web, published on Google Play.}
+        \resumeItem{Integrated OCR for cookbook digitization, a Supabase backend, and Android packaging via Capacitor.}
+        \resumeItem{Built with Astro, React, TypeScript, and a multi-language interface with automated unit conversion.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Congressional Trade Tracker} \href{https://github.com/Ha-Lun/pelosi-tracker}{\myuline{\texttt{(GitHub)}}}}{}
       \resumeItemListStart
         \resumeItem{Developed a Python-based automated system to fetch and track congressional stock trades using a Model Context Protocol (MCP) server.}
         \resumeItem{Built a robust data pipeline integrating \texttt{yfinance} for real-time market data and SQLite with Peewee ORM for persistent storage.}
@@ -185,76 +206,10 @@
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{Clip My Recipes} \href{https://github.com/Ha-Lun/clip-my-recipes}{\myuline{\texttt{(GitHub)}}} \ | \
-      \href{https://clipped.lundstromslogiska.se/}{\myuline{\texttt{Live App}}}}{}
-      \resumeItemListStart
-        \resumeItem{Developed a full-stack, mobile-ready web application for saving and managing recipes clipped from the web.}
-        \resumeItem{Integrated OCR for cookbook digitization, a Supabase backend, and Android packaging via Capacitor.}
-        \resumeItem{Built with Astro, React, TypeScript, and a multi-language interface with automated unit conversion.}
-      \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{Wine Cellar Tracker} \href{https://github.com/Ha-Lun/wine-cellar-app}{\myuline{\texttt{(GitHub)}}} \ | \
-      \href{https://wine-cellar.lundstromslogiska.se/}{\myuline{\texttt{Live App}}}}{}
-      \resumeItemListStart
-        \resumeItem{Developed a web application for managing and tracking personal wine cellar inventory.}
-        \resumeItem{Built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.}
-      \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{Scientific Computing for Data Analysis} \href{https://github.com/Ha-Lun/Scientific-Computing-Data-Analysis}{\myuline{\texttt{(GitHub)}}}}{}
-      \resumeItemListStart
-        \resumeItem{Implemented a handwritten digit classifier using Singular Value Decomposition (SVD).}
-        \resumeItem{The algorithm approximates digit images within a low-dimensional subspace and classifies them based on the smallest reconstruction residual.}
-      \resumeItemListEnd
-
-    \resumeProjectHeading
       {\textbf{SwarmKit} \href{https://github.com/Ha-Lun/swarmkit}{\myuline{\texttt{(GitHub)}}}}{}
       \resumeItemListStart
         \resumeItem{Developed SwarmKit, a modular framework for building and deploying multi-agent AI systems.}
-        \resumeItem{Implemented robust communication protocols and task orchestration logic to enable seamless collaboration between autonomous agents.}
-      \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{Milknet.se} \href{https://milknet.se}{\myuline{\texttt{(Live Site)}}}}{}
-      \resumeItemListStart
-        \resumeItem{Designed and built the website for Milknet, a national Swedish network connecting 30+ neonatal milk banks.}
-        \resumeItem{The site guides prospective breast milk donors, helps them locate their local milk bank, and gives healthcare staff access to shared guidelines.}
-        \resumeItem{Built with Astro as a fast, accessible, Swedish-language site.}
-      \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{Lundstr\"{o}ms Logiska} \href{https://lundstromslogiska.se}{\myuline{\texttt{(Live Site)}}}}{}
-      \resumeItemListStart
-        \resumeItem{Developed the marketing website for a systems development and AI strategy consultancy.}
-        \resumeItem{Built with Astro, featuring bilingual (SV/EN) routing and a case-study showcase linking to live deployed projects.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------EDUCATION-----------
-\section{EDUCATION}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Hitachi Power Up Program}{Sep. 2026 -- 2028}
-      {Hitachi Energy}{Sweden}
-      \resumeItemListStart
-        \resumeItem{2-year scholarship program focused on power and energy industry leadership development.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Uppsala University}{Aug. 2023 -- Present}
-      {Master of Science in Industrial Economics}{Uppsala, Sweden}
-      \resumeItemListStart
-        \resumeItem{Ongoing studies in industrial economics with focus on technology, economics, and management.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Rudbeck}{Aug. 2020 -- Jun. 2023}
-      {Natural Science Program}{Sollentuna, Sweden}
-      \resumeItemListStart
-        \resumeItem{High school education with natural sciences focus.}
+        \resumeItem{Implemented communication protocols and task orchestration logic to enable collaboration between autonomous agents.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -265,10 +220,9 @@
     \small{\item{
      \textbf{Languages} {: Python, Java, C\#, C++, SQL, TypeScript}\\
      \textbf{Web} {: React, Next.js, Astro, Vite, Tailwind CSS, Supabase, Dash, Bootstrap}\\
-     \textbf{Technical} {: Automation \& PLC, Docker, Linux, Git, SQLite, Vector Databases}\\
-     \textbf{AI} {: LLM Deployment, RAG Architecture, Model Quantization, AI Strategy}\\
-     \textbf{Finance} {: Asset Management, Accounting, Cash Flow Analysis}\\
-     \textbf{Office} {: MS Office}
+     \textbf{Technical} {: Automation \& PLC, Docker, Linux, Git, SQLite}\\
+     \textbf{AI} {: LLM Deployment, Model Quantization, AI Strategy}\\
+     \textbf{Finance} {: Accounting, Bookkeeping, Cash Flow Analysis}
     }}
  \end{itemize}
 
