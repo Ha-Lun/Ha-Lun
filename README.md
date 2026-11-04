@@ -10,11 +10,11 @@
 
 ## 👨‍💻 About me
 
-* 🔭 I'm currently working on **[Recipe and Cooking app](https://github.com/Ha-Lun/clip-my-recipes) & [LLM Agentic Coding Workflow](https://github.com/Ha-Lun/swarmkit)**
+* 🔭 I'm currently working on **[LLM Agentic Coding Workflow](https://github.com/Ha-Lun/swarmkit)**
 * 🌱 I'm currently learning **Advanced Machine Learning**
 * 👯 I'm looking to collaborate on **Anything Financial or AI Related**
 * 💬 Ask me about **Machine Learning Applications for Finance**, **Accounting, and Cash Flow Analysis**
-* 📫 How to reach me: **hannes.e.lundstrom@gmail.com**
+* 📫 How to reach me: **hannes@lundstromslogiska.se**
 * 📄 Know about my experiences: **[Check out my resume](main.pdf)** <br/>
 
 ## 🛠️ Skills
