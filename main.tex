@@ -26,17 +26,12 @@
 \DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
 \DeclareTextFontCommand{\texteb}{\ebseries}
 
-\usepackage{contour}
 \usepackage[normalem]{ulem}
 \renewcommand{\ULdepth}{1.8pt}
-\contourlength{0.8pt}
-\newcommand{\myuline}[1]{%
-  \uline{\phantom{#1}}%
-  \llap{\contour{white}{#1}}%
-}
+\newcommand{\myuline}[1]{\uline{#1}}
 
-\usepackage{tgheros}
-\renewcommand*{\familydefault}{\sfdefault}
+\usepackage[lining]{ebgaramond}
+\renewcommand*{\familydefault}{\rmdefault}
 \usepackage[T1]{fontenc}
 \input{glyphtounicode}
 \pdfgentounicode=1
@@ -63,6 +58,8 @@
 \titleformat {\section}{
     \bfseries \vspace{2pt} \raggedright \large
 }{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+\setlist[itemize,2]{itemsep=0pt, parsep=0pt}
+\titlespacing*{\section}{0pt}{8pt}{5pt}
 
 \newcommand{\resumeItem}[1]{
   \item\small{
@@ -121,10 +118,8 @@
       {Uppsala University}{Aug. 2023 -- Jun. 2028 (expected)}
       {Master of Science in Industrial Engineering and Management}{Uppsala, Sweden}
       \resumeItemListStart
-        \resumeItem{Specialization: Industrial Analytics.}
-        \resumeItem{Bachelor of Science in Engineering (Teknologie kandidatexamen), 2026.}
-        \resumeItem{GPA: 4.7/5.}
-        \resumeItem{Scholarship: Hitachi Energy Power Up Program, 2026--2028. Two-year program for master's students at KTH and Uppsala University, with factory and site visits, cross-functional problem-solving projects, and career development in Ludvika and Västerås.}
+        \resumeItem{Specialization: Industrial Analytics; GPA: 4.7/5; Bachelor of Science in Engineering, 2026.}
+        \resumeItem{Relevant coursework: Statistical Machine Learning; Data Mining; Scientific Computing for Data Analysis; Computational Finance.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -137,34 +132,37 @@
       {Lundstr\"{o}ms Logiska}{Apr. 2026 -- Present}
       {Co-Founder}{Uppsala, Sweden}
       \resumeItemListStart
-        \resumeItem{Co-founded a consultancy in AI strategy, systems development, and management consulting; responsible for client relations, project scoping, and delivery.}
-        \resumeItem{Delivered Milknet.se, the website for a national Swedish network of 30+ neonatal milk banks, guiding prospective donors to their local milk bank and giving healthcare staff access to shared guidelines (Astro, Swedish-language, accessibility-focused).}
-        \resumeItem{Built the company website with bilingual (SV/EN) routing and a case-study showcase linking to live deployed projects (Astro).}
+        \resumeItem{Co-founded a consultancy in AI strategy, systems development and management consulting; own client relationships end to end, turning loosely defined client needs into scoped projects and delivering them.}
+        \resumeItem{Delivered Milknet.se for a national network of 30+ neonatal milk banks, serving donors and healthcare staff (Astro, Cloudflare).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Hitachi Energy}{Sep. 2026 -- 2028}
+      {Power Up Program (Scholarship)}{Ludvika \& V\"{a}ster\aa s, Sweden}
+      \resumeItemListStart
+        \resumeItem{One of \textasciitilde 12 Uppsala/KTH master's students selected yearly: cross-functional projects, site visits and a thesis track.}
       \resumeItemListEnd
 
     \resumeSubheading
       {I-Sektionen Uppsala}{Jul. 2025 -- Jun. 2026}
       {Vice Chairman and Treasurer}{Uppsala, Sweden}
       \resumeItemListStart
-        \resumeItem{Managed finances for a student association with \textasciitilde 1.5 MSEK in annual revenue, covering invoicing, bookkeeping, cash flow analysis, and financial reporting to the board and members.}
-        \resumeItem{Oversaw \textasciitilde 40 kSEK in capital investments (camera equipment and merchandise) and served as the association's contact with companies, financial institutions, and government agencies.}
-        \resumeItem{Facilitated a major reorganization: replaced the board with a smaller strategic board plus an operative group running day-to-day operations, created new roles, and split overloaded responsibilities across multiple roles.}
+        \resumeItem{Diagnosed overloaded board roles and redesigned the association's governance into a smaller strategic board plus an operative group for daily work; formally adopted, cutting the board from 13 to 6 members, with all roles filled, including five new ones.}
+        \resumeItem{Managed finances for a student association with \textasciitilde 1.5 MSEK in annual revenue: invoicing, bookkeeping, cash flow and board reporting.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Uppsala University}{Nov. 2025 -- Jan. 2026}
       {Teaching Assistant, ``Virtual Development of Automated Production Systems''}{Uppsala, Sweden}
       \resumeItemListStart
-        \resumeItem{Supervised lab sessions and project work in a course focused on PLC programming (Ladder Logic) and production simulation in Simumatik.}
-        \resumeItem{Led students through lab assignments, assisted with project development, and explained key concepts in industrial automation and control systems.}
+        \resumeItem{Supervised lab sessions and project work on PLC programming (Ladder Logic) and production simulation in Simumatik.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Tempo Runmar\"{o} AB}{Summers 2024 -- 2026}
       {Store Worker}{Runmar\"{o}, Stockholm}
       \resumeItemListStart
-        \resumeItem{Purchasing manager for fruits and vegetables; built an Excel demand-forecasting model from previous years' sales data and presented sales statistics in Power BI.}
-        \resumeItem{Trained new staff and regularly held overall responsibility in teams of \textasciitilde 5.}
+        \resumeItem{Purchasing manager for fruit and vegetables; built an Excel demand-forecasting model from previous years' sales data, with forecasts within about 10\% of actual consumption, and reported sales statistics in Power BI.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -174,41 +172,23 @@
   \resumeSubHeadingListStart
 
     \resumeProjectHeading
-  {\textbf{Personal LLM} \href{https://github.com/Ha-Lun/personal-llm}{\myuline{\texttt{(GitHub)}}}}{}
-  \resumeItemListStart
-    \resumeItem{Built a GPT-style decoder-only Transformer from scratch in PyTorch, implementing core LLM components including tokenization, positional encoding, multi-head attention, layer normalization, and probabilistic sampling methods.}
-    \resumeItem{Extended the project by fine-tuning \texttt{Phi-3-mini-4k-instruct} on 2{,}000 Python coding-instruction examples using QLoRA on a Google Colab T4 GPU, then deployed the resulting coding assistant to \href{https://ollama.com/hanneselundstrom/phi-coding-instructor}{Ollama}.}
-  \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{Clavis} \href{https://clavis.lundstromslogiska.se}{\myuline{\texttt{(Live App)}}}}{}
+      {\textbf{Clavis} \href{https://clavis.lundstromslogiska.se}{\myuline{\texttt{(Live App)}}} \ -- AI study assistant}{}
       \resumeItemListStart
-        \resumeItem{Built an AI synthesis platform using a \textit{Model Council} architecture that queries multiple LLMs in parallel and delivers a single synthesized response.}
-        \resumeItem{Developed with Next.js 14, TypeScript, Zustand for state management, and Appwrite as the backend-as-a-service layer.}
+        \resumeItem{Built an LLM app (Next.js, Appwrite) on students' Canvas courses with tool calling, a RAG pipeline over course files with cited answers, and a multi-LLM ``Model Council'' that synthesizes one answer.}
+        \resumeItem{Built a multi-tenant MCP server linking AI assistants (Claude Desktop, Cursor) to the Canvas REST API with per-user isolation.}
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{RecipeJar} \href{https://github.com/Ha-Lun/clip-my-recipes}{\myuline{\texttt{(GitHub)}}} \ | \
-      \href{https://clipped.lundstromslogiska.se/}{\myuline{\texttt{Live App}}}}{}
+      {\textbf{Prediction-Market Arbitrage Monitor} \ -- Python}{}
       \resumeItemListStart
-        \resumeItem{Built and published an Android recipe app on Google Play for saving and managing recipes clipped from the web.}
-        \resumeItem{Integrated OCR for cookbook digitization, a Supabase backend, and Android packaging via Capacitor.}
-        \resumeItem{Built with Astro, React, TypeScript, and a multi-language interface with automated unit conversion.}
+        \resumeItem{Tested whether Kalshi--Polymarket price gaps were exploitable: scanned \textasciitilde 160k markets; only \textasciitilde 1\% of \textasciitilde 2M observations beat fees.}
+        \resumeItem{Paper-traded 250 positions (121 settled, zero losses); found capital lock-up was the binding constraint and refocused on fast-settling gaps.}
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{Congressional Trade Tracker} \href{https://github.com/Ha-Lun/pelosi-tracker}{\myuline{\texttt{(GitHub)}}}}{}
+      {\textbf{SwarmKit} \href{https://github.com/Ha-Lun/swarmkit}{\myuline{\texttt{(GitHub)}}} \ -- multi-agent setup for AI coding assistants}{}
       \resumeItemListStart
-        \resumeItem{Developed a Python-based automated system to fetch and track congressional stock trades using a Model Context Protocol (MCP) server.}
-        \resumeItem{Built a data pipeline integrating \texttt{yfinance} for real-time market data and SQLite with Peewee ORM for persistent storage.}
-        \resumeItem{Designed an interactive web dashboard using Dash (Plotly) and Bootstrap to visualize historical trade trends and market analysis.}
-      \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{SwarmKit} \href{https://github.com/Ha-Lun/swarmkit}{\myuline{\texttt{(GitHub)}}}}{}
-      \resumeItemListStart
-        \resumeItem{Developed SwarmKit, a modular framework for building and deploying multi-agent AI systems.}
-        \resumeItem{Implemented communication protocols and task orchestration logic to enable collaboration between autonomous agents.}
+        \resumeItem{Built 33 agents and skills for Claude Code, OpenCode and Antigravity from one source, with cost-aware model routing.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -217,11 +197,8 @@
 \section{SKILLS}
  \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-     \textbf{Languages} {: Python, Java, C\#, C++, SQL, TypeScript}\\
-     \textbf{Web} {: React, Next.js, Astro, Vite, Tailwind CSS, Supabase, Dash, Bootstrap}\\
-     \textbf{Technical} {: Automation \& PLC, Docker, Linux, Git, SQLite, Excel, Power BI}\\
-     \textbf{AI} {: LLM Deployment, Model Quantization, AI Strategy}\\
-     \textbf{Finance} {: Accounting, Bookkeeping, Cash Flow Analysis}
+     \textbf{Programming}{: Python, TypeScript, SQL, C\#, C++} \quad \textbf{AI \& Data}{: PyTorch, scikit-learn, pandas, LLM APIs, MCP, RAG, Excel, Power BI}\\
+     \textbf{Tools}{: Linux, Docker, Git} \quad \textbf{Finance}{: Accounting, Bookkeeping, Cash Flow Analysis} \quad \textbf{Languages}{: Swedish (native), English (fluent)}
     }}
  \end{itemize}
 
